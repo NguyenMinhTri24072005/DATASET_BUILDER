@@ -181,8 +181,8 @@ wandb/
 # ------------------------------------------------------------------------------
 # Bỏ qua toàn bộ ảnh raw để tránh phình repo và lỗi push GitHub (>100MB/2GB)
 # Giữ lại khung thư mục rỗng thông qua file .gitkeep
-1_Raw_Images/*
-!1_Raw_Images/.gitkeep
+# 1_Raw_Images/*
+# !1_Raw_Images/.gitkeep
 
 # ------------------------------------------------------------------------------
 # 11. (Tùy chọn) Bỏ qua tập dữ liệu trích xuất nếu chỉ muốn lưu mã nguồn
